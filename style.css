@@ -1,0 +1,176 @@
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 10px;
+}
+
+.headline {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+}
+
+.text,
+.link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    color: #e5e7eb;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+img { 
+    height: 100px;
+    max-width: auto;
+    border: royalblue 8px;
+    border-radius: 8px;
+    
+}
+
+
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    
+  
+}
+
+.two {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.column {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   max-width: 500px;
+   max-height: 200px;
+  }
+
+.signup {
+    background: royalblue;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    width: 80px;
+    padding: 4px;
+}
+
+#picture {
+    width: 500px;
+    height: 200px;
+    border-radius: 0%;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 100px;
+    text-align: center;
+    
+}
+
+.information {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    }
+
+.quote {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 100px 350px;
+}
+
+.signature {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.blue {
+    background-color: royalblue;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: white;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.bluesignup {
+    width: 200px;
+    background-color: royalblue;
+    color: white;
+    padding: 2px;
+    border-color: white;
+    border-radius: 6px;
+    
+    
+}
+
+.blueheadline {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 34px;
+}
