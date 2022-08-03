@@ -61,14 +61,6 @@ img {
 }
 
 
-.one {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 16px;
-    
-  
-}
 
 .two {
     height: 100%;
@@ -173,4 +165,27 @@ padding: 100px 350px;
     justify-content: center;
     color: white;
     padding: 34px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    gap: 480px;  
+    
+}
+
+.logo,
+.link {
+    max-width: 500px;
 }
